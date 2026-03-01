@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shoe Mart | We Care For Your Feet</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0b1d3a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #071633;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+    color: #ffd700;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1542291026-7eec264c27ff');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #ffd700;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* SECTION */
+.section {
+    padding: 70px 60px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+    color: #ffd700;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #132b5c;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #1a3d82;
+}
+
+/* CONTACT */
+.contact-box {
+    background: #132b5c;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #ffd700;
+    color: #0a1f44;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffcc00;
+}
+
+/* FOOTER */
+footer {
+    background: #071633;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Shoe Mart</h1>
+    <nav>
+        <a href="#collections">Collections</a>
+        <a href="#brands">Brands</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>We Care For Your Feet</h2>
+    <p>Since 1998 | 27 Years of Trusted Legacy</p>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections" class="section">
+    <h2>Our Collections</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://www.albertotorresi.com/cdn/shop/files/DSC_1033.jpg?v=1754295384">
+            <h3>Formal Shoes</h3>
+        </div>
+        <div class="card">
+            <img src="https://www.actionlifestyle.com/cdn/shop/files/DCE-364-BROWN_-1W_1_54cfdc72-9ecc-4409-8bbd-edf6a0618904.jpg?v=1715931715">
+            <h3>Casual Shoes</h3>
+        </div>
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71f3BmjCwtL.jpg">
+            <h3>Sports Shoes</h3>
+        </div>
+        <div class="card">
+            <img src="https://fuelshoes.com/cdn/shop/files/8_0.75x_20_b5983bc6-3035-4308-8cfc-8a7a04b91b90.png?v=1749297110">
+            <h3>Slippers & Slip-Ons</h3>
+        </div>
+    </div>
+</section>
+
+<!-- BRANDS -->
+<section id="brands" class="section">
+    <h2>Brands We Offer</h2>
+    <div class="grid">
+        <div class="card">
+	<img src="https://substackcdn.com/image/fetch/$s_!SHJn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7a5fbfb-bb7f-40f3-a179-21fead60b632_1000x1000.jpeg">
+	<h3>Bata</h3></div>
+
+        <div class="card">
+<img src="https://images.seeklogo.com/logo-png/24/1/paragon-logo-png_seeklogo-247277.png">
+
+<h3>Paragon</h3></div>
+        <div class="card">
+<img src="https://yt3.googleusercontent.com/f0Pd8GXKQL0yjbHYgve7f2_3NsaNfj3_MOsgluHhrE3JPaxh18PRt_e7QhdncCl4O6gYzaNpGg=s900-c-k-c0x00ffffff-no-rj">
+<h3>VKC</h3></div>
+        <div class="card"><img src="https://images.seeklogo.com/logo-png/32/1/sparx-logo-png_seeklogo-324277.png">
+<h3>Sparx</h3></div>
+        <div class="card"><img src="https://media.licdn.com/dms/image/v2/C4D1BAQGZIbSpY8v3lQ/company-background_10000/company-background_10000/0/1583316372805?e=2147483647&v=beta&t=ezopcI-P4mAOR80btesDe1q1AkQB4W6y32f_yruNOww">
+<h3>Lunars</h3></div>
+        <div class="card"><img src="https://i.pinimg.com/736x/0e/7d/19/0e7d19a04dd482e56a436e69854943e2.jpg">
+<h3>Campus</h3></div>
+        <div class="card"><img src="https://images.seeklogo.com/logo-png/0/1/action-logo-png_seeklogo-2926.png">
+<h3>Action</h3></div>
+        <div class="card"><img src="https://www.korakari.com/cdn/shop/files/Men_3.png?v=1768213893&width=800">
+<h3>Kolhapuri</h3></div>
+    </div>
+</section>
+
+<!-- ACCESSORIES -->
+<section id="accessories" class="section">
+    <h2>Accessories Available</h2>
+    <div class="grid">
+        <div class="card"><img src="https://5.imimg.com/data5/AQ/RI/MY-2483971/school-shoes-500x500.jpg">
+<h3>School Shoes</h3></div>
+        <div class="card"><img src="https://m.media-amazon.com/images/I/719A0JrEupL._AC_UY1100_.jpg"><h3>Socks</h3></div>
+        <div class="card"><img src="https://imagescdn.peterengland.com/img/app/product/3/39691909-14204120.jpg?auto=format&w=390"><h3>Leather Belts</h3></div>
+        <div class="card"><img src="https://m.media-amazon.com/images/I/81WIcyHQ7oL._AC_UY1100_.jpg"><h3>Leather Wallets</h3></div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>Founder:</strong> Inayatullah Khan</p>
+        <p><strong>Managed By:</strong> Hannan Ahmad</p>
+        <p><strong>Branches:</strong> Kamanahalli & Babusapalya, Bangalore</p>
+        <p><strong>Phone:</strong> +91 96636 12540</p>
+        <p><strong>Instagram:</strong> @shoemart</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Phone Number">
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 Shoe Mart | We Care For Your Feet
+</footer>
+
+</body>
+</html>
